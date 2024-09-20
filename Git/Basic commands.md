@@ -1,22 +1,22 @@
 
 ### Intialising git repo
-```
+```shell
 git init
 ```
 
 
 ### Git repo status
-```
+```shell
 git status
 ```
 
 ### Short status
-```
+```shell
 git status -s
 ```
 
 ### Adding files to staging area
-```
+```shell
 git add .  
 
 git add <file names>
@@ -24,7 +24,7 @@ git add <shortcuts>
 ```
 
 ### Committing changes
-```
+```shell
 git commit -m "commiting message"
 
 
@@ -32,31 +32,31 @@ git commit
 ```
 
 ### Committing without staging area
-```
+```shell
 git commit -am "commit  message"
 
 git commit -a -m "commit message"
 ```
 
 ### Lisiting files in the staging area
-```
+```shell
 git ls-files
 ```
 
 
 ### Removing files from staging area
-```
+```shell
 git rm <file name / pattern>
 
 ```
 
 ### Renaming / moving files
-```
+```shell
 git mv <current name> <new name>
 ```
 
 ### Ignoring files
-```
+```shell
 # first create gitignore files
 
 echo .gitignore
@@ -70,7 +70,7 @@ echo .gitignore
 
 ### Ignoring files from the commited repo
 
-```
+```shell
 # if we want to ignore directories and files from the already commit repo, we have to add them into gitignore and remove it from the index (staging area).
 
 # listing files in git index (staging area)
@@ -85,7 +85,7 @@ git rm --cached -r <directories>
 
 ### Short Status
 
-```
+```shell
 git status -s
 
 # it will gives you small brief status of the files
@@ -105,7 +105,7 @@ represents the working directory.
 
 it helps to remove unwanted staged files from staging area.
 
-```
+```shell
 git restore --staged [file_name/ pattern/ .]
 ```
 
@@ -113,6 +113,6 @@ git restore --staged [file_name/ pattern/ .]
 
 it restores the modified working directory files to previous commited version.
 
-```
+```shell
 git restore [file_name/ pattern/ .]
 ```

@@ -129,7 +129,7 @@ In your `views.py`, you can display uploaded images. Add this in `profile_list.h
 
 Make sure your view returns the profiles:
 
-```python
+ ```python
 def profile_list(request):
     profiles = Profile.objects.all()
     return render(request, 'profile_list.html', {'profiles': profiles})

@@ -1,7 +1,7 @@
  
 git diff helps to compare the changes between staged and working directory, commited and stages directories.
 
-```
+```shell
 git diff 
 ```
 
@@ -17,7 +17,7 @@ git diff
 8. code in the working directory
 
 
-```
+```shell
 git diff --staged
 
 ```
