@@ -94,3 +94,5 @@ Let me know if you'd like further clarification on any of these!
 ### Z-index:
 
 stacking context is important handling z-index in css positioning and using z-index
+![[Screenshot from 2024-09-23 13-38-38(1).png]]
+
