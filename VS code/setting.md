@@ -23,4 +23,12 @@ search extension recommendation in setting
 ### custom snippets
 --> insert snippet -->emmet
 ls
-  
+
+
+
+#### Pylance
+changed setting
+pylance analysis -->function return type hints -->enabled
+pytest parameters -->enabled
+variable types ->enabled
+type checking mode -->standred
